@@ -4,10 +4,13 @@
   "description": "Open Source Search Engine",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "SOURCErers",
   "license": "MIT",
+  "engines": {
+    "node": "8.11.1"
+  }
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.13.3",
